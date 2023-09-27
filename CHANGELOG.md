@@ -1,3 +1,18 @@
+## 0.2.0 (2023-09-27)
+
+### Feat
+
+- changes to pyproject
+- publishing via poetry
+- using poetry
+- adding mixed line ending check
+
+### Fix
+
+- removing readme from pyproject
+- trying to fix pypi upload
+- adding long desc to package
+
 ## 0.1.0 (2023-09-27)
 
 ## v0.1.0 (2023-09-27)
