@@ -6,7 +6,8 @@ import fire
 import openai
 from dotenv import load_dotenv
 from loguru import logger
-from mini_judge.data_io import load_answers_file, load_questions_file
+from mini_judge.data_io import load_answers_file
+from mini_judge.data_io import load_questions_file
 from mini_judge.judge_execution import trial
 from mini_judge.trial_result_manager import TrialResultManager
 from tqdm import tqdm

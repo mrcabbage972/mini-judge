@@ -1,8 +1,8 @@
 import time
 from dataclasses import dataclass
-from loguru import logger
-import openai
 
+import openai
+from loguru import logger
 from mini_judge.judge_prompt import judge_prompt_template
 
 MAX_TOKENS = 2048
