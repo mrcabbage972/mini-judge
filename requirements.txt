@@ -1,0 +1,7 @@
+loguru
+openai
+python-fire
+dotenv
+tqdm
+commitizen
+pre-commit
