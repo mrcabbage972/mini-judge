@@ -25,8 +25,8 @@ def parse_judge_answer(judge_answer):
     return 0
 
 
-def trial(judge_model: str, question: str, model_answer: str, ref_answer: str) -> TrialOutcome:
-    prompt = judge_prompt_template.format(question=question, model_answer=model_answer,
+def trial(judge_model: str, question: str, candidate_answer: str, ref_answer: str) -> TrialOutcome:
+    prompt = judge_prompt_template.format(question=question, candidate_answer=candidate_answer,
                                           ref_answer=ref_answer)
     messages = format_openai_chat_prompt(prompt)
     judge_answer = chat_completion_openai(judge_model, messages,

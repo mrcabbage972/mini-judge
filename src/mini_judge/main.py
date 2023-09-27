@@ -10,14 +10,15 @@ from mini_judge.data_io import load_answers_file
 from mini_judge.data_io import load_questions_file
 from mini_judge.judge_execution import trial
 from mini_judge.trial_result_manager import TrialResultManager
+from pkg_resources import resource_filename
 from tqdm import tqdm
 
 
-def main(judge_model: str,
-         questions_path: str,
-         candidate_answers_path: str,
-         ref_answers_path: str,
-         output_dir: str,
+def main(judge_model: str = 'gpt-4',
+         questions_path: str = resource_filename('mini_judge', 'example_data/questions.jsonl'),
+         candidate_answers_path: str = resource_filename('mini_judge', 'example_data/candidate_answers.jsonl'),
+         ref_answers_path: str = resource_filename('mini_judge', 'example_data/ref_answers.jsonl'),
+         output_dir: str = 'output',
          query_parallelism: int = 2):
     load_dotenv()
     openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -43,6 +44,8 @@ def main(judge_model: str,
 
     logger.info(trial_result_mgr)
 
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
     trial_result_mgr.serialize_judge_answers(os.path.join(output_dir, 'judge_answers.jsonl'))
     trial_result_mgr.serialize_stats(os.path.join(output_dir, 'trial_stats.jsonl'))
 
