@@ -28,9 +28,6 @@ repos:
     rev: v3.10.0 # automatically updated by Commitizen
     hooks:
         - id: commitizen
-    stages:
-        - post-commit
-        - push
 
 -   repo: https://github.com/Yelp/detect-secrets
     rev: v1.4.0
