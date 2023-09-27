@@ -4,6 +4,8 @@ from setuptools import setup
 setup(
     name='mini_judge',
     description='Simple implementation of LLM-As-Judge',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     author='Victor May',
     version='0.1.0',
     packages=find_packages(where='src'),
