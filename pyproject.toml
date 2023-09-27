@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mini-judge"
+version = "0.1.0"
+description = ""
+authors = ["mrcabbage972"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+commitizen = "^3.10.0"
+loguru = "^0.7.2"
+openai = "^0.28.1"
+python-dotenv = "^1.0.0"
+tqdm = "^4.66.1"
+python-fire = "^0.1.0"
+pre-commit = "^3.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
