@@ -3,17 +3,22 @@ name = "mini-judge"
 version = "0.1.0"
 description = ""
 authors = ["mrcabbage972"]
+readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
-commitizen = "^3.10.0"
+python = "^3.9"
 loguru = "^0.7.2"
 openai = "^0.28.1"
 python-dotenv = "^1.0.0"
 tqdm = "^4.66.1"
 python-fire = "^0.1.0"
+
+[tool.poetry.group.dev.dependencies]
+commitizen = "^3.10.0"
 pre-commit = "^3.4.0"
 
+[tool.poetry.group.test.dependencies]
+pytest = "^6.0.0"
 
 [build-system]
 requires = ["poetry-core"]
