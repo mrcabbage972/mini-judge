@@ -1,7 +1,7 @@
 loguru
 openai
 python-fire
-dotenv
+python-dotenv
 tqdm
 commitizen
 pre-commit
