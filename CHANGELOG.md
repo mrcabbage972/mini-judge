@@ -2,6 +2,12 @@
 
 ### Feat
 
+- moving version to pyproject
+
+## 0.2.0 (2023-09-27)
+
+### Feat
+
 - changes to pyproject
 - publishing via poetry
 - using poetry
