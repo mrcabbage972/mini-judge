@@ -19,6 +19,5 @@ mini-judge \
 
 To run a quick demo, use the following command to evaluate the candidate answers in `example_data/candidate_answers.jsonl` against the reference answers in `example_data/ref_answers.jsonl` using GPT-4 as the judge model.
 ```
-```
 mini_judge --output_path <output_path>
-``````
+```
