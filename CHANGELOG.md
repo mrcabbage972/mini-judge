@@ -1,3 +1,11 @@
+## 0.3.0 (2023-09-28)
+
+### Feat
+
+- fix publish
+- Merge branch 'main' of https://github.com/mrcabbage972/mini-judge
+- fixing
+
 ## 0.3.0 (2023-09-27)
 
 ### Feat
