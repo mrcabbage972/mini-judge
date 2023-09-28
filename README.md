@@ -28,3 +28,7 @@ To run a quick demo, use the following command to evaluate the candidate answers
 ```
 mini_judge --output_path <output_path>
 ```
+
+# References
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric. P Xing, Hao Zhang, Joseph E. Gonzalez, & Ion Stoica. (2023). Judging LLM-as-a-judge with MT-Bench and Chatbot Arena [ArXiv](https://arxiv.org/abs/2306.05685).
+
