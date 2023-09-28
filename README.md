@@ -2,6 +2,7 @@
 <span>Mini Judge</span>
 </h1>
 
+[![PyPI version](https://badge.fury.io/py/mini-judge.svg)](https://badge.fury.io/py/mini-judge)
 <a href="https://github.com/mrcabbage972/mini-judge/actions/workflows/pre-commit.yml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/mrcabbage972/mini-judge/pre-commit.yml?label=pre-commit)</a>
 
 
