@@ -1,4 +1,10 @@
-# mini-judge
+<h1 align="center">
+<span>Mini Judge</span>
+</h1>
+
+<a href="https://github.com/mrcabbage972/mini-judge/actions/workflows/pre-commit.yml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/mrcabbage972/mini-judge/pre-commit.yml?label=pre-commit)</a>
+
+
 Simple implementation of LLM-As-Judge for pairwise evaluation of Q&A models.
 
 # Usage
