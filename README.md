@@ -1,4 +1,11 @@
-# mini-judge
+<h1 align="center">
+<span>Mini Judge</span>
+</h1>
+
+[![PyPI version](https://badge.fury.io/py/mini-judge.svg)](https://badge.fury.io/py/mini-judge)
+<a href="https://github.com/mrcabbage972/mini-judge/actions/workflows/pre-commit.yml">![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/mrcabbage972/mini-judge/pre-commit.yml?label=pre-commit)</a>
+
+
 Simple implementation of LLM-As-Judge for pairwise evaluation of Q&A models.
 
 # Usage
@@ -21,3 +28,7 @@ To run a quick demo, use the following command to evaluate the candidate answers
 ```
 mini_judge --output_path <output_path>
 ```
+
+# References
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric. P Xing, Hao Zhang, Joseph E. Gonzalez, & Ion Stoica. (2023). Judging LLM-as-a-judge with MT-Bench and Chatbot Arena [ArXiv](https://arxiv.org/abs/2306.05685).
+
