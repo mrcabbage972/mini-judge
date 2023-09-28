@@ -1,3 +1,9 @@
+## 0.3.0 (2023-09-27)
+
+### Feat
+
+- moving version to pyproject
+
 ## 0.2.0 (2023-09-27)
 
 ### Feat
