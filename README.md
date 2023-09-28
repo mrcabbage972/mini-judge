@@ -8,11 +8,11 @@
 
 Simple implementation of LLM-As-Judge for pairwise evaluation of Q&A models.
 
-# Usage
+# Installation
 Install the package using pip:
 ```pip install mini-judge```
 
-Then, you can use the package as follows.
+# Usage
 First, set the OPENAI_API_KEY environment variable to your OpenAI API key.
 Then, you can run the following command to evaluate the candidate answers in `candidate_answers_path` against the reference answers in `ref_answers_path` using `judge_model` as the judge model.
 ```
@@ -28,7 +28,14 @@ To run a quick demo, use the following command to evaluate the candidate answers
 ```
 mini_judge --output_path <output_path>
 ```
+# Data Format
+All input data files are presumed to be in [jsonl](https://jsonlines.org/) format.
+
+The `candidate_answers` and `ref_answers` files should have each line as a json with an `answer` tag.
+
+Similarly, the questions file should have json lines with a `question` tag.
+
+All other tags will be ignored.
 
 # References
 Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric. P Xing, Hao Zhang, Joseph E. Gonzalez, & Ion Stoica. (2023). Judging LLM-as-a-judge with MT-Bench and Chatbot Arena [ArXiv](https://arxiv.org/abs/2306.05685).
-
