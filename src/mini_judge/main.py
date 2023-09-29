@@ -23,6 +23,10 @@ def main(judge_model: str = 'gpt-4',
     load_dotenv()
     openai.api_key = os.getenv("OPENAI_API_KEY")
 
+    if openai.api_key is None:
+        logger.error('OPENAI_API_KEY is not set')
+        exit(1)
+
     logger.info('Loading data')
     questions = load_questions_file(questions_path)
     candidate_answers = load_answers_file(candidate_answers_path)
