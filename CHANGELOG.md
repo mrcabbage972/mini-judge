@@ -1,3 +1,21 @@
+## 0.3.1 (2023-09-29)
+
+### Fix
+
+- checking if API key is set
+- restoring entrypoint
+- pre-commit
+- pre-commit
+
+## v0.3.3 (2023-09-28)
+
+## v0.3.2 (2023-09-28)
+
+### Fix
+
+- publish
+- publish
+
 ## 0.3.0 (2023-09-28)
 
 ### Feat
