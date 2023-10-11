@@ -1,3 +1,13 @@
+## 0.4.0 (2023-10-11)
+
+### Feat
+
+- changing judge prompt to be same as in arena repo
+
+### Fix
+
+- build
+
 ## 0.3.1 (2023-09-29)
 
 ### Fix
