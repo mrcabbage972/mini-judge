@@ -18,9 +18,9 @@ class TrialOutcome:
 
 
 def parse_judge_answer(judge_answer):
-    if judge_answer.endswith('[[NO]]'):
+    if judge_answer.endswith('[[B]]'):
         return -1
-    elif judge_answer.endswith('[[YES]]'):
+    elif judge_answer.endswith('[[A]]'):
         return 1
     return 0
 
